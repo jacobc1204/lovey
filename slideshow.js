@@ -5,7 +5,7 @@ function slideshow() {
     slides.forEach(slide => {slide.style.display = 'none'});
     index++;
     index > slides.length ? index = 1 : console.log('ignore this');
-    slides[index-1].style.display = 'block';
+    slides[index-1].style.display = 'grid';
     setTimeout(slideshow, 5000);
 }
 

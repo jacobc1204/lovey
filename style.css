@@ -58,6 +58,8 @@ body {
             animation-duration: 5s;
     -webkit-animation-timing-function: ease-in;
             animation-timing-function: ease-in;
+    justify-items: center;
+    align-items: center;
 }
 
 .slide p {
